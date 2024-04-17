@@ -8,7 +8,7 @@
     "start": " parcel index.html",
     "build": "parcel build index.html",
     "clean": "rimraf dist",
-    "Build": "npm run clean && npm run build"
+    "Build": "npm run clean && npm run parcel build *.html --public-url ./"
   },
   "author": "Caleb",
   "license": "ISC",
